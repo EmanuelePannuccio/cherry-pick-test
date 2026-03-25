@@ -10,6 +10,9 @@ def divide(x, y):
     if y == 0: return "Errore"
     return x / y
 
+def test(x,y):
+    return x-y
+
 if __name__ == "__main__":
     print("Calcolatrice v1.0 - Base")
     print(f"5 + 3 = {add(5, 3)}")
