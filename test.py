@@ -12,6 +12,8 @@ def divide(x, y):
 def multiply(x, y):
     return x * y
 
+def test(x,y):
+    return x-y
 def newop(x,y):
     return x+y
 
